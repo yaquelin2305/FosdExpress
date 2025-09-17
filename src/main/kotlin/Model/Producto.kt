@@ -1,4 +1,4 @@
-package org.example
+package Model
 
 open class Producto (val nombre: String , val precioBase: Int ,val tiempoPrep: Int ){
 
@@ -12,7 +12,3 @@ open class Producto (val nombre: String , val precioBase: Int ,val tiempoPrep: I
 
 
 }
-
-
-
-

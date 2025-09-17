@@ -1,4 +1,6 @@
-package org.example
+package Model
+
+import Model.Producto
 
 class Comida(
     nombre: String,

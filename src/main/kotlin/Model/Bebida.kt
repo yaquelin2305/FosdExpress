@@ -1,4 +1,6 @@
-package org.example
+package Model
+
+import Model.Producto
 
 class Bebida(
     nombre: String,
@@ -20,4 +22,3 @@ class Bebida(
         return precioBase + recargo
     }
 }
-
