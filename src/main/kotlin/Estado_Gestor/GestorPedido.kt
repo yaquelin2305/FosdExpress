@@ -1,8 +1,9 @@
+package Estado_Gestor
+
 import kotlinx.coroutines.*
-import org.example.Producto
-import org.example.Bebida
-import org.example.Comida
-import org.example.EstadoPedido
+import Model.Producto
+import Model.Bebida
+import Model.Comida
 
 fun inicializarCatalogo(): List<Producto> {
     return listOf(

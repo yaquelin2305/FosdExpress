@@ -19,7 +19,7 @@ fun main() = runBlocking {
     }
 
     // Elegir productos por número
-    println("\nIngrese los números de los productos separados por coma (ej: 1,2): ")
+    println("\nIngrese los numeros de los productos separados por coma (ej: 1,2): ")
     val entrada = readLine() ?: ""
     val indices = entrada.split(",").mapNotNull { it.trim().toIntOrNull() }
 
